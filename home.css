@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@font-face {
+    font-family: 'selimaregular';
+    src: url('selima_-webfont.woff2') format('woff2'),
+         url('selima_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.body{
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+	}
+	p{
+	color:#6c6c6f;
+	font-size:2em;
+	}
+	h1,h2,h4,h5,h6{color:#323233;text-transform:uppercase;}
+#mainNav {
+  background: #1A453B;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  text-transform:uppercase;
+  font-face: bold;
+}
+	
+ .shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529;
+}
+.banner{
+	background-image:url('https://i.postimg.cc/BnBJ0cpc/hero-image.jpg');
+	text-align: center;
+    color: #fff;
+   box-shadow: 10px 10px 8px #888888;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	z-index: 3;
+}
+.banner-text{
+	padding:200px 0 150px 0;
+}
+.banner-heading{
+	font-family: 'selimaregular';
+	font-size: 8em;
+    font-weight: 700;
+    line-height: 100px;
+    margin-bottom: 30px;
+	color:#1A453B;
+}
+
+
+.btn-banner{
+	padding:5px 20px;
+	border-radius:10px;
+	border-color: #1A453B;
+	font-weight:700;
+	line-height:1.5;
+	text-align:center;
+	color:#fff;
+	background-color: #1A453B;
+}
+.text-intro{
+	width:90%;
+	margin:auto;
+	text-align:center;
+	padding-top:30px;
+}
+
+
+/* mobile view */
+@media (max-width:500px)
+{
+	.navbar-nav{
+		background-color:#000;
+		border-top:3px solid #fed136;
+		color:#fff;
+		z-index:1;
+		margin-top:5px;
+		}
+	.navbar-nav .nav-item .nav-link{
+	padding: 0.7em 1em!important;
+	font-size: 100%;
+    font-weight: 500;
+    }
+	.banner-text{
+	padding:150px 0 150px 0;
+}
+.banner-heading{
+	font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.banner-sub-heading{
+	font-size: 10px;
+    font-weight: 200;
+    line-height: 10px;
+    margin-bottom: 40px;
+}
+
+}
+
+@media (max-width:768px){
+	.banner-text{
+	padding:150px 0 150px 0;
+}
+	.banner-sub-heading{
+	font-size: 23px;
+    font-weight: 200;
+    line-height: 23px;
+    margin-bottom: 40px;
+}
+}
+#collapsibleNavbar {
+	font: white;
+}
+
+.heading-title {
+    margin-bottom: 100px;
+}
+.text-center {
+    text-align: center;
+}
+.heading-title h2 {
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    font-weight: bold;
+	text-align:center;
+	padding-bottom: -10px;
+	
+}
+
+.p-top-30 {
+    padding-top: 30px;
+	text-align: center;
+}
+.half-txt {
+    width: 60%;
+    margin: 0 auto;
+    display: inline-block;
+    line-height: 25px;
+    color: #7e7e7e;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+#team {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.heading-title {
+    margin-bottom: 40px;
+}
+.text-center {
+    text-align: center;
+}
+.heading-title h3 {
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+.p-top-30 {
+    padding-top: 30px;
+}
+.half-txt {
+    width: 60%;
+    margin: 0 auto;
+    display: inline-block;
+    line-height: 25px;
+    color: #7e7e7e;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.team-member, .team-member .team-img {
+   
+}
+.team-member {
+    overflow: hidden;
+} 
+.team-member, .team-member .team-img {
+    position: relative;
+	object-fit: none;
+	height: 200px;
+}
+
+
+.team-member .s-link a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 16px;
+}
+.team-title {
+    position: static;
+    padding: 20px 0;
+    display: inline-block;
+    letter-spacing: 2px;
+    width: 100%;
+}
+.team-title h5 {
+    margin-bottom: 0px;
+    display: block;
+    text-transform: uppercase;
+}
+.team-title span {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #a5a5a5;
+    letter-spacing: 1px;
+}
+
+.doc {
+	text-align: center;
+	
+}
+
+#contactform123 {
+	height: 700px;
+	
+}
+#about {
+	background-color: #EEEEEE;
+}
+.grey_back {
+	background-color: #EEEEEE;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+/*about us */
+#about {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+}
+
+/*document stuff */
+
+.club_documents h1{
+	padding-top: 100px;
+	text-align: center;
+}
+
+h3 {
+	padding-top: 10px;
+	font-size: 4 em;
+}
