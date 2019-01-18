@@ -57,15 +57,23 @@
 
 
 .btn-banner{
-	padding:5px 20px;
-	border-radius:10px;
+	padding:10px 40px;
+	border-radius:5px;
 	border-color: #1A453B;
-	font-weight:700;
 	line-height:1.5;
+	text-transform: uppercase;
 	text-align:center;
 	color:#fff;
 	background-color: #1A453B;
+	font-family: 'Open Sans', sans-serif;
 }
+
+.btn-banner:hover {
+	background-color: #1A453B;
+	border-color: #1A453B;
+	opacity: 60%;
+}
+
 .text-intro{
 	width:90%;
 	margin:auto;
@@ -154,6 +162,7 @@
 #team {
 	padding-top: 50px;
 	padding-bottom: 50px;
+	background-color: #EEEEEE;
 }
 .heading-title {
     margin-bottom: 40px;
@@ -226,9 +235,7 @@
 	height: 700px;
 	
 }
-#about {
-	background-color: #EEEEEE;
-}
+
 .grey_back {
 	background-color: #EEEEEE;
 	padding-bottom: 50px;
@@ -247,6 +254,42 @@
 .club_documents h1{
 	padding-top: 100px;
 	text-align: center;
+}
+
+
+.contactClick {
+	background-color: #1A453B;
+	color: white;
+	border: solid 1.5px white;
+	margin-top: 2%;
+	padding: 13px 20px;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
+
+
+}
+
+.contactClick:hover {
+	background-color: #EEEEEE;
+	color: #1A453B;
+	
+}
+
+#contact h2 {
+	color: white;
+	text-align: center;
+	text-transform: none;
+
+}
+
+#contact {
+	background-color: #1A453B;
+	padding-top: 3em;
+	padding-bottom: 6em;
+	
+	
 }
 
 h3 {
