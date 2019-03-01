@@ -47,14 +47,27 @@
 	
 	<div class = "calendar">
 	<h3>Calendar</h3>
-	<a href = ""><iframe class = "doc" style="min-height:500px; height:inherit; overflow:auto;"  width="70%" src="https://docs.google.com/document/d/e/2PACX-1vS1W9bkJ_1VKu7ceF0XqViRLhaQl41J3_PBCXrg8JDRSVWl8_wdzyGh8E6pk3zDRt1MRP1OKsaaN6ja/pub?embedded=true"></iframe>
+	<a href = ""><iframe id = "calendar" class = "doc" style="min-height:500px; height:inherit; overflow:auto;"  width="70%" src="https://docs.google.com/document/d/e/2PACX-1vS1W9bkJ_1VKu7ceF0XqViRLhaQl41J3_PBCXrg8JDRSVWl8_wdzyGh8E6pk3zDRt1MRP1OKsaaN6ja/pub?embedded=true"></iframe>
 	</a></div>
-	
 	<h3>Budget</h3>
 	<iframe style="min-height:500px; height:inherit; overflow:auto;"  width="70%" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTV2Tzf_lTq4-7omaeLjqKpyPE3stt3PuX9XKABFVoy7j3YZUsS0ddxbvSbrAwR3SvnoCRJO6omLEb7/pubhtml?gid=852732917&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 	<h3>Potential Donors</h3>
 	<iframe class = "doc" style="min-height:500px; height:inherit; overflow:auto;"  width="70%" src="https://docs.google.com/document/d/e/2PACX-1vRUA60q1RRBLpoO7e6stXZgPtlaChENptofWb-B5SiX_r4C82OSjEUxFaa7rtJC3W3W-DpkXOgAGM3C/pub?embedded=true"></iframe>
 	
-	
+	 <head>
+    <script>
+var frm = parent.document.getElementsByTagName("calendar");
+for(var i = 0; i < frm.length; i++){
+if(frm[i].name && frm[i].id){
+var prefix = "x_'.$user_id.'";
+if((frm[i].name.indexOf(prefix) != -1) && (frm[i].id.indexOf(prefix) != -1)){
+try{frm[i].contentWindow.location.reload(true);}
+catch(e){}
+}
+else{continue;}
+}
+else{continue;}
+}
+</script>
 	
 </body>
