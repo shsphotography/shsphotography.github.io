@@ -30,7 +30,11 @@
     background-color: #212529;
 }
 .banner{
+<<<<<<< HEAD
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.postimg.cc/BnBJ0cpc/hero-image.jpg');
+=======
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.postimg.cc/BnBJ0cpc/hero-image.jpg');
+>>>>>>> 6ecfa6154c69f6641b57640e779a8d3a9bfc041f
 	text-align: center;
     color: #fff;
    box-shadow: 10px 10px 8px #888888;
@@ -52,7 +56,11 @@
     font-weight: 700;
     line-height: 100px;
     margin-bottom: 30px;
+<<<<<<< HEAD
 	color: white;
+=======
+	color:white;
+>>>>>>> 6ecfa6154c69f6641b57640e779a8d3a9bfc041f
 }
 
 
@@ -72,6 +80,7 @@
 	background-color: #1A453B;
 	border-color: #1A453B;
 	opacity: 60%;
+<<<<<<< HEAD
 }
 
 /* floating arrow */
@@ -106,7 +115,10 @@
 
 .bounce {
   @include animation(bounce 2s infinite);
+=======
+>>>>>>> 6ecfa6154c69f6641b57640e779a8d3a9bfc041f
 }
+
 .text-intro{
 	width:90%;
 	margin:auto;
@@ -268,9 +280,13 @@
 	height: 700px;
 	
 }
+<<<<<<< HEAD
 #about {
 	/*background-color: #EEEEEE; */
 }
+=======
+
+>>>>>>> 6ecfa6154c69f6641b57640e779a8d3a9bfc041f
 .grey_back {
 	background-color: #EEEEEE;
 	padding-bottom: 50px;
@@ -291,6 +307,10 @@
 	text-align: center;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6ecfa6154c69f6641b57640e779a8d3a9bfc041f
 .contactClick {
 	background-color: #1A453B;
 	color: white;
@@ -321,14 +341,25 @@
 #contact {
 	background-color: #1A453B;
 	padding-top: 3em;
+<<<<<<< HEAD
 	padding-bottom: 5em;
+=======
+	padding-bottom: 6em;
+>>>>>>> 6ecfa6154c69f6641b57640e779a8d3a9bfc041f
 	
 	
 }
 
+<<<<<<< HEAD
 
 h3 {
 	padding-top: 10px;
 	font-size: 4 em;
 	
 }
+=======
+h3 {
+	padding-top: 10px;
+	font-size: 4 em;
+}
+>>>>>>> 6ecfa6154c69f6641b57640e779a8d3a9bfc041f
